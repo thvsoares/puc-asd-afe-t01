@@ -7,11 +7,14 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="index.css">
-	<title>Álbum de Fotos</title>
+	<link rel="stylesheet" href="css/index.css">
+	<title>Notícia Populares</title>
 </head>
 
 <body>
+	<div class="page-header">
+  		<h1>Notícias Populares</h1>	
+	</div>
 	<nav class="navbar navbar-inverse">
 		<div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
@@ -19,22 +22,30 @@
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
 					<spam class="glyphicon glyphicon-menu-hamburger"></spam>
 				</button>
-				<a class="navbar-brand" href="#/painel">Acme photos</a>
+				<a class="navbar-brand" href="#/painel">Categorias</a>
 			</div>
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="menu">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="#/painel">Painel de fotos</a></li>
-					<li><a href="#/busca">Busca de fotos</a></li>
-					<li><a href="#/albuns">Lista de álbuns</a></li>
-					<li><a href="#/slideshow">Slideshow</a></li>
+					<li class="active"><a href="#/Atualizades">Atualidades</a></li>
+					<li><a href="#/Esportes">Esportes</a></li>
+					<li><a href="#/Saude">Saúde</a></li>
+					<li><a href="#/Viagem">Viagem</a></li>
 				</ul>
 			</div>
-			<!-- /.navbar-collapse -->
+			<!-- /.navbar-collapse -->			
 		</div>
 		<!-- /.container-fluid -->
 	</nav>
+	<div class="blockSearch">
+		<div class="input-group">
+			<input type="text" class="form-control" placeholder="Pesquisar...">
+			<span class="input-group-btn">
+			<button class="btn btn-default" type="button">Ir!</button>
+			</span>
+		</div>
+	</div>		
 	<div class="row">
   		<div class="col-sm-12 col-md-4">
     		<div class="thumbnail">
@@ -42,12 +53,74 @@
       				<h2 class="title">Clash Royale</h2>
 					<h4 class="subtitle">Jogo febre nas escolas</h4>
         	  	</div>
-				<img src="Images/Noticia1.png" alt="Notícia de jogo">
+				<img src="Images/Noticia1.png" alt="Clash Royale">
       			<div class="caption">
-        			<p>Jovens perdem diversas aulas para jogar</p>
+        			<p>Jovens perdem diversas aulas para jogar e professores bloqueiam.</p>
 				</div>
     		</div>
   		</div>
+		<div class="col-sm-12 col-md-3">
+    		<div class="thumbnail">
+      			<div class="caption">
+      				<h2 class="title">Viagem Uruguai</h2>
+					<h4 class="subtitle">Lua de mel na América do Sul</h4>
+        	  	</div>
+				<img src="Images/Noticia2.png" alt="Viagem Uruguai">
+      			<div class="caption">
+        			<p>Casais postam dicas de viagem e mostram como economizar.</p>
+				</div>
+    		</div>
+  		</div>
+		<div class="col-sm-12 col-md-4">
+    		<div class="thumbnail">
+      			<div class="caption">
+      				<h2 class="title">O Colchão</h2>
+					<h4 class="subtitle">Qualidade de uma noite</h4>
+        	  	</div>
+				<img src="Images/Noticia3.png" alt="O Colchão">
+      			<div class="caption">
+        			<p>O colchão pode influenciar em uma boa noite de sono e na saúde?</p>
+				</div>
+    		</div>
+  		</div>
+	</div>
+	<div class="row">
+  		<div class="col-sm-12 col-md-4">
+    		<div class="thumbnail">
+      			<div class="caption">
+      				<h2 class="title">Viagem Uruguai</h2>
+					<h4 class="subtitle">Lua de mel na América do Sul</h4>
+        	  	</div>
+				<img src="Images/Noticia2.png" alt="Viagem Uruguai">
+      			<div class="caption">
+        			<p>Casais postam dicas de viagem e mostram como economizar.</p>
+				</div>
+    		</div>
+  		</div>
+		<div class="col-sm-12 col-md-3">
+    		<div class="thumbnail">
+      			<div class="caption">
+      				<h2 class="title">O Colchão</h2>
+					<h4 class="subtitle">Qualidade de uma noite</h4>
+        	  	</div>
+				<img src="Images/Noticia3.png" alt="O Colchão">
+      			<div class="caption">
+        			<p>O colchão pode influenciar em uma boa noite de sono e na saúde?</p>
+				</div>
+    		</div>
+  		</div>
+		<div class="col-sm-12 col-md-4">
+    		<div class="thumbnail">
+      			<div class="caption">
+      				<h2 class="title">Clash Royale</h2>
+					<h4 class="subtitle">Jogo febre nas escolas</h4>
+        	  	</div>
+				<img src="Images/Noticia1.png" alt="Clash Royale">
+      			<div class="caption">
+        			<p>Jovens perdem diversas aulas para jogar e professores bloqueiam.</p>
+				</div>
+    		</div>
+  		</div>		
 	</div>
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
 	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>

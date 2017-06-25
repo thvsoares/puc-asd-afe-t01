@@ -1,3 +1,19 @@
+.page-header{
+   margin: 0;
+   padding: 0;   
+}
+
+.page-header h1{
+   text-align: center; 
+}
+
+.blockSearch{
+    position: absolute;
+    top: 5%;
+    right: 0;
+    width: 30%;
+}
+
 .thumbnail .caption{
     font-family: "Georgia";
     font-weight: bold;
@@ -12,13 +28,7 @@
     color: darkblue;
 }
 
-.thumbnail .caption{
-    font-family: "Georgia";
-    font-weight: bold;
-    text-align: center;
-}
-
 .thumbnail img{
    max-height: 200px;
-   max-width: 80%;
+   max-width: 500px;
 }

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/listagem.css">
+	<title>Notícia Populares</title>
+</head>
+
+<body>
+	<div class="page-header">
+  		<h1>Notícias Populares</h1>	
+	</div>	
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+					<spam class="glyphicon glyphicon-menu-hamburger"></spam>
+				</button>
+				<a class="navbar-brand" href="#/painel">Categorias</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="menu">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#/Atualizades">Atualidades</a></li>
+					<li><a href="#/Esportes">Esportes</a></li>
+					<li><a href="#/Saude">Saúde</a></li>
+					<li><a href="#/Viagem">Viagem</a></li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+    <div class="rowSearch">
+		<div class="input-group col-sm-12 col-md-4">
+			<input type="text" class="form-control" placeholder="Pesquisar...">
+			<span class="input-group-btn">
+			<button class="btn btn-default" type="button">Ir!</button>
+			</span>
+		</div>
+	</div>		
+	<div class="media">
+        <div class="media-left media-middle">
+            <a href="#">
+                <img src="Images/Noticia1.png" alt="Clash Royale">
+            </a>
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">Clash Royale</h4>
+            Jogo febre nas escolas
+        </div>
+    </div>
+    <div class="media">
+        <div class="media-left media-middle">
+            <a href="#">
+                <img src="Images/Noticia2.png" alt="Viagem Uruguai">
+            </a>
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">Viagem Uruguai</h4>
+            Lua de mel na América do Sul
+        </div>
+    </div>
+    <div class="media">
+        <div class="media-left media-middle">
+            <a href="#">
+                <img src="Images/Noticia3.png" alt="O Colchão">
+            </a>
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">O Colchão</h4>
+            Qualidade de uma noite
+        </div>
+    </div>
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
