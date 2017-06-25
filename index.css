@@ -1,0 +1,24 @@
+.thumbnail .caption{
+    font-family: "Georgia";
+    font-weight: bold;
+    text-align: center;
+}
+
+.thumbnail .caption .title{
+    color: black;
+}
+
+.thumbnail .caption .subtitle{
+    color: darkblue;
+}
+
+.thumbnail .caption{
+    font-family: "Georgia";
+    font-weight: bold;
+    text-align: center;
+}
+
+.thumbnail img{
+   max-height: 200px;
+   max-width: 80%;
+}
