@@ -77,3 +77,8 @@ img {
 .list-group {
     max-width: 400px;
 }
+
+.navbar-brand img {
+    max-height: 20px;
+    max-width: 20px;
+}
