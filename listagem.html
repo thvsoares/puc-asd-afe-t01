@@ -7,14 +7,10 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/listagem.css">
-	<title>Notícia Populares</title>
+	<title>Resultado de pesquisa</title>
 </head>
 
 <body>
-	<div class="page-header">
-  		<h1>Notícias Populares</h1>	
-	</div>	
 	<nav class="navbar navbar-inverse">
 		<div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
@@ -38,47 +34,58 @@
 		</div>
 		<!-- /.container-fluid -->
 	</nav>
-    <div class="rowSearch">
+	<div class="rowSearch">
 		<div class="input-group col-sm-12 col-md-4">
 			<input type="text" class="form-control" placeholder="Pesquisar...">
 			<span class="input-group-btn">
 			<button class="btn btn-default" type="button">Ir!</button>
 			</span>
 		</div>
-	</div>		
-	<div class="media">
-        <div class="media-left media-middle">
-            <a href="#">
-                <img src="Images/Noticia1.png" alt="Clash Royale">
-            </a>
-        </div>
-        <div class="media-body">
-            <h4 class="media-heading">Clash Royale</h4>
-            Jogo febre nas escolas
-        </div>
-    </div>
-    <div class="media">
-        <div class="media-left media-middle">
-            <a href="#">
-                <img src="Images/Noticia2.png" alt="Viagem Uruguai">
-            </a>
-        </div>
-        <div class="media-body">
-            <h4 class="media-heading">Viagem Uruguai</h4>
-            Lua de mel na América do Sul
-        </div>
-    </div>
-    <div class="media">
-        <div class="media-left media-middle">
-            <a href="#">
-                <img src="Images/Noticia3.png" alt="O Colchão">
-            </a>
-        </div>
-        <div class="media-body">
-            <h4 class="media-heading">O Colchão</h4>
-            Qualidade de uma noite
-        </div>
-    </div>
+	</div>
+	<section class="container-fluid">
+		<article class="col-xm-12 col-sm-10">
+			<ul class="list-group">
+				<li class="list-group-item">
+					<div class="media">
+						<div class="media-left media-middle">
+							<a href="#"><img src="Images/Noticia1.png" alt="Clash Royale"></a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">Clash Royale</h4>
+							Jogo febre nas escolas
+						</div>
+					</div>
+				</li>
+				<li class="list-group-item">
+					<div class="media">
+						<div class="media-left media-middle">
+							<a href="#"><img src="Images/Noticia2.png" alt="Viagem Uruguai"></a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">Viagem Uruguai</h4>
+							Lua de mel na América do Sul
+						</div>
+					</div>
+				</li>
+				<li class="list-group-item">
+					<div class="media">
+						<div class="media-left media-middle">
+							<a href="#"><img src="Images/Noticia3.png" alt="O Colchão"></a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">O Colchão</h4>
+							Qualidade de uma noite
+						</div>
+					</div>
+				</li>
+			</ul>
+		</article>
+		<aside class="hidden-xs col-sm-2">
+			<img src="http://lorempixel.com/200/400/" alt="Banner" class="img-banner col-xs-12">
+			<img src="http://lorempixel.com/200/401/" alt="Banner" class="img-banner col-xs-12">
+			<img src="http://lorempixel.com/200/402/" alt="Banner" class="img-banner col-xs-12">
+		</aside>
+	</section>
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
 	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
